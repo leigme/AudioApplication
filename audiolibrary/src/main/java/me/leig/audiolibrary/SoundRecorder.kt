@@ -96,7 +96,7 @@ class SoundRecorder constructor(private val micVoiceStatus: MicVoiceStatus, priv
 
         val s = SimpleDateFormat("yyyy-MM-dd HH:mm:SS").format(Date())
 
-        fileName += "/rcd_$s.mp4"
+        fileName += "/rcd_$s.mp3"
 
         return fileName
     }
